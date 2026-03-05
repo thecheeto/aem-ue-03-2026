@@ -14,7 +14,8 @@
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
     "prepare": "husky",
     "clear-cache": "node hlxAdmin.js cache",
-    "reindex": "node hlxAdmin.js reindex"
+    "reindex": "node hlxAdmin.js reindex",
+    "serve": "npx aem up"
   },
   "repository": {
     "type": "git",
